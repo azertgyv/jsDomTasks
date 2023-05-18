@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Hesap Makinesi</title>
+</head>
+
+<body>
+
+
+    <table class="calculator">
+        <tr>
+            <td colspan="3"> <input class="display-box" type="text" id="result" /> </td>
+
+
+            <td> <input class="btn-clr" type="button" value="AC" onclick="clearScreen()" id="btn" /> </td>
+            <td> <input class="btn-clr" type="button" value="--" onclick="deleteNumber()" id="delete" />
+        </tr>
+        <tr>
+            <td> <input class="btn-clr" id="one" type="button" value="1" onclick="display('1')" /> </td>
+            <td> <input class="btn-clr" id="two" type="button" value="2" onclick="display('2')" /> </td>
+            <td> <input class="btn-clr" id="three" type="button" value="3" onclick="display('3')" /> </td>
+            <td> <input class="btn-clr" id="div" type="button" value="/" onclick="display('/')" /> </td>
+        </tr>
+        <tr>
+            <td> <input class="btn-clr" id="four" type="button" value="4" onclick="display('4')" /> </td>
+            <td> <input class="btn-clr" id="five" type="button" value="5" onclick="display('5')" /> </td>
+            <td> <input class="btn-clr" id="six" type="button" value="6" onclick="display('6')" /> </td>
+            <td> <input class="btn-clr" id="sub" type="button" value="-" onclick="display('-')" /> </td>
+        </tr>
+        <tr>
+            <td> <input class="btn-clr" id="seven" type="button" value="7" onclick="display('7')" /> </td>
+            <td> <input class="btn-clr" id="eight" type="button" value="8" onclick="display('8')" /> </td>
+            <td> <input class="btn-clr" id="nine" type="button" value="9" onclick="display('9')" /> </td>
+            <td> <input class="btn-clr" id="sum" type="button" value="+" onclick="display('+')" /> </td>
+        </tr>
+        <tr>
+            <td> <input class="btn-clr" id="dot" type="button" value="." onclick="display('.')" /> </td>
+            <td> <input class="btn-clr" id="zero" type="button" value="0" onclick="display('0')" /> </td>
+
+            <td> <input class="btn-clr" id="equal" type="button" value="=" onclick="calculate()" id="btnEqual" /> </td>
+            <td> <input class="btn-clr" id="mul" type="button" value="*" onclick="display('*')" /> </td>
+        </tr>
+    </table>
+    <img class="photo" src="./photo/8c43645fe8d0ac164a6925448be32858.jpeg" alt="">
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

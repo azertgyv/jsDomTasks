@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+#text-head {
+    text-align: center;
+    top: 36%;
+    position: absolute;
+    left: 34%;
+}
+
+#circle-btns {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 25%;
+
+    .color {
+        width: 10%;
+        height: 150px;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+
+    .gray {
+        background-color: gray;
+    }
+
+    .red {
+        background-color: red;
+    }
+
+    .blue {
+        background-color: blue;
+    }
+
+    .yellow {
+        background-color: yellow;
+    }
+}
